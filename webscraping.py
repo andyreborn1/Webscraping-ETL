@@ -1,6 +1,7 @@
 #Import das bibliotecas necessárias
 import requests
 from bs4 import BeautifulSoup as bs
+from pathlib import Path
 
 #Função para salvamento o arquivo
 def download_file(url,filename):
@@ -29,5 +30,6 @@ def find_file(url):
   download_file(pdf_download_link,"data/"+ filename)
 
 if __name__ == "__main__":
+  Path('./data').mkdir(parents=True,exist_ok=True)
   URL = 'https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss'
   find_file(URL)
