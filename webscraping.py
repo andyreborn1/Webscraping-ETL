@@ -26,8 +26,7 @@ def find_file(url):
 
   filename = pdf_download_link.split('/')[-1]
 
-  download_file(pdf_download_link,filename)
-
+  download_file(pdf_download_link,"data/"+ filename)
 
 if __name__ == "__main__":
   URL = 'https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss'
