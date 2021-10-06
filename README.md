@@ -26,7 +26,4 @@ Comando para executar o webscraping via cmd ou terminal:
   ```
   python3 webscraping.py
   ```
-Comando para executar o etl via cmd ou terminal:
-  ```
-  python3 etl.py
-  ```
+Para executar o arquivo etl.ipynb use o jupyter notebook, uma IDE como VSCode ou Spyder, ou use o google colab.
