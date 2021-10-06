@@ -20,12 +20,13 @@ Bibliotecas necessárias para a execução dos arquivos:
   ```
 
 ## Execução
-Comando para executar o webscraping via cmd ou terminal
+Executar o webscraping primeiro.
+Comando para executar o webscraping via cmd ou terminal:
 
   ```
   python3 webscraping.py
   ```
-Comando para executar o etl via cmd ou terminal
+Comando para executar o etl via cmd ou terminal:
   ```
   python3 etl.py
   ```
