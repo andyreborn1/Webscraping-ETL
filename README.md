@@ -1,5 +1,5 @@
 # Webscraping-ETL
-Webscraping para baixar o arquivo mais recente de uma url e o tratamento das tabelas para salvar como csv.
+Webscraping para baixar o arquivo mais recente de uma url e fazer o tratamento das tabelas para salvar como csv.
 
 ## Pré-requisitos
   - Python3
